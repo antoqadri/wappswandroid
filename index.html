@@ -1,60 +1,102 @@
 <!DOCTYPE html>
-<!--
-    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
-
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
-    <!-- Good default declaration:
-    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-        * Enable inline JS: add 'unsafe-inline' to default-src
-        * Enable eval(): add 'unsafe-eval' to default-src
-    * Create your own at http://cspisawesome.com
-    -->
-    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
-
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>ENGLISH FOR EVERYONE</title>
+<title>Englis Class Summary</title>
 </head>
-
 <body>
-    <div class="app">
-        <h1>PhoneGap</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            <p class="event received">Device is Ready</p>
-        </div>
-    </div>
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript">
-        app.initialize();
-    </script>
-</body>
+<!-- Akhirnya... Sebuah Halaman HTML Lengkap -->
+<h1>Englis Class Summary</h1>
+<p> This page <strong>is</strong> a form <em>you should fill</em> </p>
+<!-- tag link -->
+<p>visit more class at
+<a href="https://www.antoalqadri.blogspot.com" target="_blank">Guru Pembaharu</a>
+to get more lessons</p>
+<!-- tag image -->
+<img alt="english image" src="english.jpg" />
+<!-- tag list -->
 
-My Android Application</html>
+<h2>available class</h2>
+<ol>
+<li>Basic Grammar</li>
+<li>Basic Reading Skill</li>
+<li>Basic Listening Skill</li>
+<li>Basic Writing Skill</li>
+<li>Basic Speaking Skill</li>
+</ol>
+
+<h1><font color="green">Choose Your Level</font></h1>
+<table border="1" width="500">
+<tr>
+<td bgcolor="yellow" align="center"><font color="blue">Beginner</td>
+<td bgcolor="yellow" align="center"><font color="blue">preintermediate</td>
+<td bgcolor="yellow" align="center"><font color="blue">intermediate</td>
+</color>
+</font>
+</tr>
+</table>
+
+
+<h2>coming soon</h2>
+<!-- tag table -->
+<table border="1">
+<tr>
+<td>Grammar</td>
+<td>Writing</td>
+<td>Speaking</td>
+</tr>
+<tr>
+<td>Passive Voice</td>
+<td>Letter</td>
+<td>Asking and Stating Plan</td>
+</tr>
+<tr>
+<td>Conditional Sentences</td>
+<td>Recount</td>
+<td>Telling Personal Experiences</td>
+</tr>
+<tr>
+<td>16 Tenses</td>
+<td> Journals </td>
+<td> Public Speaking </td>
+</tr>
+</table>
+
+<br/>
+<!-- tag form -->
+<form action="finish.html" method="get">
+Nama: <input type="text" name="Name" value="Your Name" />
+<br />
+Password: <input type="password" name="password" />
+<br />
+Gender :
+<input type="radio" name="Gender" value="male" checked/>
+male
+<input type="radio" name="Gender" value="Female" />
+Female
+<br />
+Hobby:
+<input type="checkbox" name="hobby_Read" /> Reading
+<input type="checkbox" name="hobby_write" checked /> Writing
+<input type="checkbox" name="hobby_travelling" /> Travelling
+<input type="checkbox" name="hobby_else" /> else <input type="text" else="Else" value="write your hobby" />
+<br />
+Asal Kota:
+<select name="City" >
+<option value="Java"> Java</option>
+<option>Bali</option>
+<option value="Sulawesi" selected>Sulawesi</option>
+<option>Papua</option>
+<option value="Kalimantan" selected>Kalimantan</option>
+<option>Sumatra</option>
+</select>
+<br />
+Your Comment:
+<textarea name="Comment" rows="5" cols="20">
+Write Your Comment here</textarea>
+<br />
+
+
+<input type="submit" value="Submit your data!" >
+</body>
+</html>
+
